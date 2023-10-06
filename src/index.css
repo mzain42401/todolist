@@ -5,13 +5,20 @@ padding: 0;
 
 .container{
 position: absolute;
-top: 30%;
+margin-top: 100px;
 left: 50%;
-transform: translate(-50%,-30%);
+transform: translate(-50%);
 display: flex;
 flex-direction: column;
 align-items: center;
 width: 380px;
+}
+.container>h1{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+color: #007fff;
 }
 .userInput{
   width: 100%;
@@ -22,8 +29,7 @@ align-items: center;
 .userInput input{
   height: 40px;
   width: 80%;
-  background-color: red;
-  border: none;
+  border: 2px solid #007fff;
   outline: none;
   padding: 0px 10px;
   font-size: 18px;
@@ -31,11 +37,12 @@ align-items: center;
   
 }
 .addListBtn{
-  background-color: aqua;
+  background-color: #007fff;
+  color: #fff;
   border-radius: 6px;
   height: 40px;
   width: 40px;
-  margin: 0px 3px;
+  margin: 0px 1px;
   display: flex;
   justify-content: center;
 align-items: center;
@@ -46,12 +53,12 @@ font-size: 18px;
 
 .list{
   margin-top: 20px;
-  background-color: aqua;
   width: 350px;
 }
 .list li{
   list-style: none;
-  background-color: red;
+  background-color: #007fff;
+  color: #fff;
   width: 99%;
   margin-top: 10px ;
   border-radius: 6px;
@@ -76,8 +83,21 @@ font-size: 18px;
   cursor: pointer;
 
 }
+.editInput{
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 4px;
+  margin-left: 5px;
+padding: 0px 5px;
+
+}
 .div1 h3{
   margin-left: 5px;
+}
+.active{
+  text-decoration: line-through !important;
+  color: lightgray;
 }
 .div2{
   display: flex;
@@ -85,7 +105,8 @@ font-size: 18px;
   align-items: center;
 }
 .list li button{
-  background-color: aqua;
+  background-color: #6ba5df;
+  
   cursor: pointer;
   height: 30px;
   margin: 0px 2px;
