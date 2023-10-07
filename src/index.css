@@ -82,6 +82,7 @@ font-size: 18px;
   color: aquamarine;
   cursor: pointer;
 
+  text-decoration: line-through;
 }
 .editInput{
   border: none;
@@ -130,4 +131,5 @@ padding: 0px 5px;
 }
 .linethrough{
   text-decoration: line-through;
+  color: lightgray;
 }
